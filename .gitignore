@@ -1,0 +1,61 @@
+# Arquivos e diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais
+venv/
+env/
+.python-version
+
+# Compilados Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e bancos de dados
+*.log
+*.sqlite3
+*.db
+*.bak
+
+# Arquivos temporários ou de backup
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.~*
+
+# Configurações de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.code-workspace
+
+# Documentos específicos de desenvolvimento
+coverage/
+.tox/
+.build/
+dist/
+*.egg-info/
+.Python
+.mypy_cache/
+
+# Pacotes de dependências
+.Pipfile.lock
+.pip
+.Pipfile
+.requirements
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Artefatos de teste
+htmlcov/
+test-reports/
+nosetests.xml
+coverage.xml
+*.cover
+*.coverage
+*.hypothesis/
